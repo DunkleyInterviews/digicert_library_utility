@@ -32,3 +32,10 @@ void OptionSelector::optionSelector() {
         optionSelector();
     }
 }
+
+const std::string OptionSelector::LIST = "list";
+const std::string OptionSelector::GET = "get";
+const std::string OptionSelector::CREATE = "create";
+const std::string OptionSelector::UPDATE = "update";
+const std::string OptionSelector::DELETE = "delete";
+const std::string OptionSelector::EXIT = "exit";
